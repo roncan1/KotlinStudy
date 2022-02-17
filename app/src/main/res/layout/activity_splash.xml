@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImgActivity6">
-
+    tools:context=".SplashActivity">
 
     <ImageView
+        android:layout_margin="20dp"
+        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/img6"/>
+        android:src="@drawable/splash"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,67 +12,52 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        val image1 = findViewById<ImageView>(R.id.img_1)
-        image1.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity1::class.java)
+        val btn1 = findViewById<ImageView>(R.id.img_1)
+        btn1.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","1")
             startActivity(intent)
         }
 
-        val image2 = findViewById<ImageView>(R.id.img_2)
-        image2.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity2::class.java)
+        val btn2 = findViewById<ImageView>(R.id.img_2)
+        btn2.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","2")
             startActivity(intent)
         }
 
-        val image3 = findViewById<ImageView>(R.id.img_3)
-        image3.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity3::class.java)
+        val btn3 = findViewById<ImageView>(R.id.img_3)
+        btn3.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","3")
             startActivity(intent)
         }
 
-        val image4 = findViewById<ImageView>(R.id.img_4)
-        image4.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity4::class.java)
+        val btn4 = findViewById<ImageView>(R.id.img_4)
+        btn4.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","4")
             startActivity(intent)
         }
 
-        val image5 = findViewById<ImageView>(R.id.img_5)
-        image5.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity5::class.java)
+        val btn5 = findViewById<ImageView>(R.id.img_5)
+        btn5.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","5")
             startActivity(intent)
         }
 
-        val image6 = findViewById<ImageView>(R.id.img_6)
-        image6.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity6::class.java)
+        val btn6 = findViewById<ImageView>(R.id.img_6)
+        btn6.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","6")
             startActivity(intent)
         }
 
-        val image7 = findViewById<ImageView>(R.id.img_1)
-        image7.setOnClickListener{
-
-            Toast.makeText(this, "클릭완료", Toast.LENGTH_SHORT).show()
-
-            var intent = Intent(this, ImgActivity7::class.java)
+        val btn7 = findViewById<ImageView>(R.id.img_7)
+        btn7.setOnClickListener{
+            val intent = Intent(this, ImageInsideActivity::class.java)
+            intent.putExtra("data","7")
             startActivity(intent)
         }
     }

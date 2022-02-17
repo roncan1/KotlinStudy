@@ -10,28 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinStudy">
         <activity
-            android:name=".ImgActivity7"
+            android:name=".ImageInsideActivity"
             android:exported="true" />
         <activity
-            android:name=".ImgActivity6"
-            android:exported="true" />
-        <activity
-            android:name=".ImgActivity5"
-            android:exported="true" />
-        <activity
-            android:name=".ImgActivity4"
-            android:exported="true" />
-        <activity
-            android:name=".ImgActivity3"
-            android:exported="true" />
-        <activity
-            android:name=".ImgActivity2"
-            android:exported="true" />
-        <activity
-            android:name=".ImgActivity1"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
